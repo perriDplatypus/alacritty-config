@@ -1,0 +1,36 @@
+[env]
+TERM = "xterm-256color"
+WINIT_X11_SCALE_FACTOR = "1.0"
+
+[terminal]
+shell = "/usr/bin/fish"
+
+[window]
+opacity = 0.9
+dimensions.columns = 150
+dimensions.lines = 50
+padding.x = 10
+padding.y = 10
+decorations = "Full"
+title = "Terminal"
+
+[font]
+normal.family = "JetBrains Mono"
+bold.family = "JetBrains Mono"
+italic.family = "JetBrains Mono"
+bold_italic.family = "JetBrains Mono"
+size = 12
+
+[colors.primary]
+background = "#1d1f21"
+foreground = "#c5c8c6"
+
+[colors.normal]
+black = "#1d1f21"
+red = "#cc6666"
+green = "#b5bd68"
+yellow = "#f0c674"
+blue = "#81a2be"
+magenta = "#b294bb"
+cyan = "#8abeb7"
+white = "#c5c8c6"
